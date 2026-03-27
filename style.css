@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 40px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+/* ABOUT */
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+.skills span {
+    margin: 10px;
+    padding: 10px;
+    background: #1e293b;
+    display: inline-block;
+}
+
+/* PROJECTS */
+#projects {
+    padding: 50px;
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card a {
+    color: #38bdf8;
+}
+
+/* CONTACT */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+form button {
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+}
